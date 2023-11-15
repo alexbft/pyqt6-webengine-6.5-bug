@@ -16,3 +16,5 @@ Run the code from the source dir:
 	pipenv install
     pipenv run python main.py
 You should have a window on your second monitor, appearing frozen.
+![image](https://github.com/alexbft/pyqt6-webengine-6.5-bug/assets/537984/74aed72b-8417-482e-b7b8-b39334f556c7)
+
