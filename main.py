@@ -18,6 +18,7 @@ class MyWindow(QMainWindow):
         self.setWindowTitle('test')
 
 os.environ['QTWEBENGINE_CHROMIUM_FLAGS']='--single-process --disable-gpu --enable-logging --log-level=0 --v=1'
+os.environ['QT_LOGGING_RULES']='qt.webenginecontext.debug=true'
 logging.basicConfig(stream=sys.stdout)
 app = QApplication(sys.argv)
 window = MyWindow()
