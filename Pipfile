@@ -4,8 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pyqt6 = "==6.5.0"
-pyqt6-qt6 = "==6.5.0"
+pyqt6 = "==6.5.3"
+pyqt6-qt6 = "==6.5.3"
 pyqt6-webengine = "==6.5.0"
 pyqt6-webengine-qt6 = "==6.5.0"
 

@@ -1,9 +1,12 @@
 ## About
 
-Showcase of a bug specific to [PyQt6-webengine](https://pypi.org/project/PyQt6-WebEngine/) version 6.5.0. It appears fixed in 6.6.0.
+Showcase of a bug specific to [PyQt6](https://pypi.org/project/PyQt6/) version 6.5.3 and below. It appears fixed in 6.6.0.
 
 Requires 2 or more monitors (I've tested on both 4k and FullHD resolutions).
 I have Windows 11 64 bit, not sure if this is related.
+I've also added a flag to disable GPU acceleration (a suggested workaround, does not work).
+
+Bug thread: https://bugs.launchpad.net/calibre/+bug/2043590
 
 ## Instructions
 Make sure you have [pipenv](https://pipenv.pypa.io/en/latest/index.html) installed!
